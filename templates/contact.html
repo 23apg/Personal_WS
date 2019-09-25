@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-6">
+      <!-- space -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Thanks for visiting!</h5>
+              <p class="card-text">I'd love to connect.</p>
+              <!-- <div class="row justify-content-md-center text-muted"> -->
+                <div class="col-sm-9">
+                  <div class="row">
+                    <div class="col-8 col-sm-6 justify-content-md-center">
+                      <a class="text-center" href="https://www.github.com/23apg"><i class="fab fa-github fa-2x" style="color: #5f788a"></i></a> 
+                      <a class="text-center" href="https://www.linkedin.com/in/angelo-garetto-2583a1166/"><i class="fab fa-linkedin fa-2x" style="color: #5f788a"></i></a>
+                    </div>
+                    <div class="col-4 col-sm-6 md-auto">
+                        <a href="{{ url_for('resume') }}" target="blank"><button class='btn btn-outline-info'>Download Resume</button></a>
+                    </div>
+                  </div>
+                <!-- </div> -->
+              </div>        
+            </div>  
+          </div>
+        </div>
+        <div class="col-sm-6">
+        <!-- space -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Thanks for visiting!</h5>
+              <p class="card-text">I'd love to connect.</p>
+              <!-- <div class="row justify-content-md-center text-muted"> -->
+                <div class="col-sm-9">
+                  <div class="row">
+                    <div class="col-8 col-sm-6 justify-content-md-center">
+                      <a class="text-center" href="https://www.github.com/23apg"><i class="fab fa-github fa-2x" style="color: #5f788a"></i></a> 
+                      <a class="text-center" href="https://www.linkedin.com/in/angelo-garetto-2583a1166/"><i class="fab fa-linkedin fa-2x" style="color: #5f788a"></i></a>
+                    </div>
+                    <div class="col-4 col-sm-6 md-auto">
+                        <a href="{{ url_for('resume') }}" target="blank"><button class='btn btn-outline-info'>Download Resume</button></a>
+                    </div>
+                  </div>
+                <!-- </div> -->
+              </div>        
+            </div>  
+          </div>
+        </div>
+
+    </div>
+  </div>
+{% endblock content %}

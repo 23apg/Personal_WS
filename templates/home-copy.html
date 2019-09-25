@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-header">
+        Ciao Ciao
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Angelo here, 3rd generation pizzatrepeneur, current data junky, avid traveler</h5>
+        <a href="{{ url_for('about') }}" class="btn btn-outline-info">Learn more about me and my past experience</a>
+      </div>
+    </div>   
+
+    <div class="card-group">
+      <a href="{{ url_for('project') }}" class="card">
+        <div class="card-body">
+          <h5 class="card-title">Boot Camp Project Reax</h5>
+          <p class="card-text">Visualizing Reddit and Twitter sentiment in Leaflet</p>       
+        </div>
+      </a>
+      <a href="{{ url_for('project') }}" class="card">
+        <div class="card-body">
+          <h5 class="card-title">KPI development with Beggars</h5>
+          <p class="card-text">Create Dashboard with relevant KPI's and Visualizations from point of sales data </p>
+        </div>
+      </a>
+      <a href="{{ url_for('project') }}" class="card">
+        <div class="card-body">
+          <h5 class="card-title">Spatial Analytics with Spacebot</h5>
+          <p class="card-text">Utilizing IoT sensor object detection data to create Spatial Analytics</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Hungry</h5>
+          <p class="card-text">Try a Beggars Pizza!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="embed-responsive embed-responsive">
+                  <img alt="Card image cap" class="img-fluid" src="https://avatars3.githubusercontent.com/u/43768119?s=460&v=4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+{% endblock content %}
